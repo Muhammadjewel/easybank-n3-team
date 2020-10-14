@@ -78,7 +78,7 @@ img {
 .nav-list{
   padding: 0;
   margin: 0;
-  margin-left: 320px;
+  margin-left: auto;
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
@@ -86,7 +86,6 @@ img {
 }
 
 .nav-item{
-  margin: 0;
   margin-right: 30px;
 }
 
@@ -137,6 +136,7 @@ img {
   text-decoration: none;
   display: inline-block;
   padding: 8px 35px;
+  vertical-align: baseline;
   margin-left: auto;
   font-weight: 500;
   font-size: 14px;
