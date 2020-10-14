@@ -44,9 +44,9 @@ img {
 /* SITE-HEADER */
 
 .site-header{
-  position: fixed;
-  z-index: 10000;
-  top: 0;
+  position: absolute;
+  z-index: 1000;
+  top: -20px;
   left: 0;
   display: block;
   height: 80px;
